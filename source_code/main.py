@@ -8,8 +8,7 @@ from logging_helper import logger
 import  sys
 
 # Just for teacher to try out, will delete it afterwards
-email = "forclassproject3@gmail.com"
-password = "myfavouritefood1998"
+
 
 with webdriver.Chrome(
     service=ChService('../drivers/chromedriver_v109.exe'),
