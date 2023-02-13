@@ -7,9 +7,6 @@ from selenium.webdriver.common.keys import Keys
 from logging_helper import logger
 import  sys
 
-# Just for teacher to try out, will delete it afterwards
-
-
 with webdriver.Chrome(
     service=ChService('../drivers/chromedriver_v109.exe'),
     options=webdriver.ChromeOptions()
