@@ -1,0 +1,23 @@
+application:
+  secret_user: <user>
+  secret_pass: <pass>
+  throttling_thru_main_page: 1
+  throttling_thru_job_pages: 2
+  terminate_when_job_data_lost: 5
+  time_sleep_after_execution: 10
+logging:
+  version: 1
+  formatters:
+    default:
+      format: '%(asctime)s %(levelname)-8s [%(name)s] %(message)s'
+      datefmt: '%Y-%m-%d %H:%M:%S'
+  handlers:
+    file:
+      class: logging.FileHandler
+      level: DEBUG
+      formatter: default
+      filename: logs/main.log
+  loggers:
+    main:
+      level: DEBUG
+      handlers: [ file ]
