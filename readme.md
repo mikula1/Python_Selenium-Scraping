@@ -1,7 +1,7 @@
 # PythonGitDelete
 
 ### Introduction
-This is my first Python project!
+Scraper built with selenium for jobmarket website scraping.
 
 ### Launch procedure
 - Launch command line
@@ -9,6 +9,3 @@ This is my first Python project!
 - Open in favorite editor/IDE and configure virtual environment with Python v.9
 - Install the necessary libraries: `pip install -r requirements.txt`
 - Copy `config/main.yml.example` and create `config/main.yml` and provide your account values (for web access etc.)
-
-### Test procedure
-- Working on it
